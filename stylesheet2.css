@@ -1,0 +1,45 @@
+body {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  }
+
+body{ 
+   height: 44em;
+  background: url("HomePhoto.jpg") no-repeat center center fixed;
+  background-attachment: fixed;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Pacifico', serif;
+  background-repeat:none;
+  background-position: center;
+  display: block; 
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  }
+  .flordivText {
+  color: red;
+  font-size: 4rem;
+  padding: 0;
+  margin-top: -24px;
+  text-align: center;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  right: 24px;
+  left: 24px;
+  line-height: 1;
+  top: 40%;
+  text-shadow: 1px 1px 0 black;
+  font-weight: 300;
+  }
+  .contact__link {
+    float: right;
+    color: white;
+    margin-right: 2em;
+    padding: 2em;
+    color: red;
+  }
